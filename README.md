@@ -4,7 +4,7 @@
 
 ## Usage
 
-  Drag and drop the folder named SourceCode. Add the .a type file to your project. Import the SSimageEditor.h file as below: 
+  Drag and drop the folder named SourceCode. Add the universal binary file i.e., .a type file to your project. Import the SSImageEditor.h file as below: 
   ```objective-c
   #import "SSImageEditor.h"
   ```
@@ -13,7 +13,7 @@
 ## Description
 
   NOTE : Read the comments in 'SSImageEditor.h' before implementing the library into your project that contains detailed description of the usage of the methods.
-         Don't forget to preserve your original image first using "initWithImage:" .
+         Don't forget to preserve your original image first using ```objective-c "initWithImage:" ```.
   
   * Filter section contains the common basic filters that should be available for all apple devices. Select one of the options from 'SSFilterType' enum list.
   
