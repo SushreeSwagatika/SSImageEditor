@@ -4,7 +4,7 @@
 
 ## Usage
 
-  Drag and drop the folder named SSImageEditor. Add the .a type file to your project. Import the SSimageEditor.h file as below: 
+  Drag and drop the folder named SourceCode. Add the .a type file to your project. Import the SSimageEditor.h file as below: 
   ```objective-c
   #import "SSImageEditor.h"
   ```
@@ -42,5 +42,5 @@
 
 ## License
 
- Read the [License section](https://github.com/SushreeSwagatika/SSImageEditor/License.md)
+ Read the [License](https://github.com/SushreeSwagatika/SSImageEditor/blob/master/LICENSE.md)
 
