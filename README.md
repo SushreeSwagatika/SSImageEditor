@@ -4,7 +4,7 @@
 
 ## Usage
 
-  Drag and drop the folder named SourceCode. Add the universal binary file i.e., .a type file to your project. Import the SSImageEditor.h file as below: 
+  Drag and drop the folder named SourceCode. Add the universal binary file i.e., ".a" type file to your project. Import the SSImageEditor.h file as below: 
   ```objective-c
   #import "SSImageEditor.h"
   ```
@@ -13,7 +13,10 @@
 ## Description
 
   NOTE : Read the comments in 'SSImageEditor.h' before implementing the library into your project that contains detailed description of the usage of the methods.
-         Don't forget to preserve your original image first using ```objective-c "initWithImage:" ```.
+         Don't forget to preserve your original image first using :
+         ```objective-c 
+         "initWithImage:" 
+         ```
   
   * Filter section contains the common basic filters that should be available for all apple devices. Select one of the options from 'SSFilterType' enum list.
   
@@ -29,11 +32,11 @@
  *      self.imageView.layer.masksToBounds = YES;
   ```
   
-  * Crop section has been categorized into Lasso-cropping and Resizable-cropping ways.
+  * Crop section has been categorized into Lasso-cropping(which means, cropping free-hand drawing shapes) and Resizable-cropping ways.
   
   * Shading section comprises of adjusting the image contrast, brightness, exposure and saturation that is totally based upon [GPUImage](https://github.com/BradLarson/GPUImage). It is a great library that has a lot more !!! Check it out for more features.
   
-  * Last but not the least, correction of red-eye images has been provided.
+  * Last but not the least, correction of red-eye images has been also included to remove red-eye from images.
   
 ## Requirements
 
